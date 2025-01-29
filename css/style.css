@@ -7,6 +7,7 @@
     /* border: 1px solid blue; */
     font-family: "Julius Sans One", serif;
     font-style: normal;
+    overflow-x: hidden;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
     min-height: 100vh;
     padding: 20px;
     background: linear-gradient(180deg, #ECE4D6 19%, #967252 100%);
+    padding: 0;
 }
 
 nav {
@@ -24,7 +26,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 100px;
 }
 
 nav a {
@@ -40,4 +42,39 @@ nav a {
 
 nav a:hover {
     transform: scale(1.1);
+}
+.container {
+    display: flex;
+    margin-top: 150px; 
+}
+.logo img{
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+.texto1 h1{
+    position: absolute;
+    top: 210px;
+    right: 90px;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 40px; 
+}
+
+.fotos div {
+    display: flex;
+    gap: 50px; 
+    justify-content: center;
+    margin-bottom: 15px; 
+}
+
+.fotos img {
+    width: 300px; 
+    height: auto;
 }

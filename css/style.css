@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid blue; */
+    font-family: "Julius Sans One", serif;
+    font-style: normal;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    padding: 20px;
+    background: linear-gradient(180deg, #ECE4D6 19%, #967252 100%);
+}
+
+nav {
+    position: fixed;
+    top: 28px;
+    right: 28px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    width: 80px;
+    padding: 10px 0;
+    text-align: center;
+    border-bottom: 2px solid #785129;
+    text-decoration: none;
+    color: #785129;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}

@@ -10,10 +10,15 @@
     overflow-x: hidden;
 }
 
+html{
+    scroll-behavior: smooth;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 body {
     width: 100vw;
     min-height: 100vh;
-    padding: 20px;
     background: linear-gradient(180deg, #ECE4D6 19%, #967252 100%);
     padding: 0;
 }

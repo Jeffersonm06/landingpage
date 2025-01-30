@@ -1,1 +1,66 @@
 @import url(style.css);
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 150px 0;
+    width: 100vw;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.texto {
+    color: #785129;
+    font-weight: 400;
+}
+
+.logo img {
+    width: 350px;
+    height: 350px;
+}
+
+.fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.row img{
+    object-fit: cover;
+    object-position: center;
+}
+
+#f1 {
+    width: 500px;
+    height: 300px;
+}
+
+#f2 {
+    width: 300px;
+    height: 350px;
+}
+
+#f3{
+    width: 400px;
+    height: 400px;
+}
+
+#f4{
+    width: 450px;
+    height: 400px;
+}

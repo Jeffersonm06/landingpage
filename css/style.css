@@ -10,7 +10,7 @@
     overflow-x: hidden;
 }
 
-html{
+html {
     scroll-behavior: smooth;
     width: 100vw;
     overflow-x: hidden;
@@ -31,7 +31,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 100px;
+    gap: 20px;
 }
 
 nav a {
@@ -47,39 +47,4 @@ nav a {
 
 nav a:hover {
     transform: scale(1.1);
-}
-.container {
-    display: flex;
-    margin-top: 150px; 
-}
-.logo img{
-    position: absolute;
-    top: 150px;
-    left: 150px;
-}
-
-.texto1 h1{
-    position: absolute;
-    top: 210px;
-    right: 90px;
-}
-
-.fotos {
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;
-    margin-top: 40px; 
-}
-
-.fotos div {
-    display: flex;
-    gap: 50px; 
-    justify-content: center;
-    margin-bottom: 15px; 
-}
-
-.fotos img {
-    width: 300px; 
-    height: auto;
 }
